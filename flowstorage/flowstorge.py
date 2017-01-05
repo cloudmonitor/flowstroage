@@ -3,8 +3,8 @@
 
 import pika
 from multiprocessing import Process, current_process
-from flowstorage.settings import *
-from flowstorage.mongodbconn import MongoHelper
+from settings import *
+from mongodbconn import MongoHelper
 
 
 class FlowStorge(Process):
